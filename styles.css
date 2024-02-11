@@ -12,10 +12,18 @@ body {
   line-height: 1.5;
 }
 
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
 table {
-  width: 100%;
+  width: 80%; 
   border-collapse: collapse;
   margin-top: 20px;
+  margin-left: 70px; 
 }
 
 thead {
