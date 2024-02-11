@@ -19,12 +19,11 @@ document.addEventListener("DOMContentLoaded", function () {
         })
         .catch(error => console.error('Error fetching data:', error));
 
-    // Additional event listeners
     document.addEventListener("click", function (event) {
-        // Handle click events
+        
     });
 
     document.addEventListener("change", function (event) {
-        // Handle change events
+    
     });
 });
