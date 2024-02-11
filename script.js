@@ -3,7 +3,6 @@ document.addEventListener("DOMContentLoaded", function () {
         .then(response => response.json())
         .then(data => {
             const drivers = data.MRData.DriverTable.Drivers;
-
             const tableBody = document.querySelector('#driversTable tbody');
 
             drivers.forEach(driver => {
@@ -19,4 +18,13 @@ document.addEventListener("DOMContentLoaded", function () {
             });
         })
         .catch(error => console.error('Error fetching data:', error));
+
+    // Additional event listeners
+    document.addEventListener("click", function (event) {
+        // Handle click events
+    });
+
+    document.addEventListener("change", function (event) {
+        // Handle change events
+    });
 });
